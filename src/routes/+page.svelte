@@ -23,13 +23,13 @@
     </section>
 </header>
 
-<h1 class="pt-25">Welcome to</h1>
+<h1 class="pt-25">Welcome to the main menu</h1>
 <p>
-    tincidunt vel at sapien nisi vel ligula consectetur tortor et 
+    here you can navigate to your stocks, recipes, account settings and feedbacks. You
+    can also view your starred recipes.
 </p>
 
 <footer class="flex justify-end items-center pt-20 flex-col">
-    <h1>hello</h1>
 </footer>
 
 <style>
@@ -40,6 +40,7 @@
         margin: 2%;
         width: 10rem;
         text-align: center;
+        border: 1px solid;
     }
     .buttonheader:hover {
         background-color: fuchsia;

@@ -23,13 +23,13 @@
     </section>
 </header>
 
-<h1 class="pt-25">Welcome to</h1>
+<h1 class="pt-25">Welcome to stocks</h1>
 <p>
-    tincidunt vel at sapien nisi vel ligula consectetur tortor et 
+    here you can add your stocks, and we will take them into account to compare recipes later.
 </p>
 
 <footer class="flex justify-end items-center pt-20 flex-col">
-    <h1>hello</h1>
+    <a href="/"><button class="bg-red-200 rounded-4xl p-5 hover:bg-red-400 w-70">back</button></a>
 </footer>
 
 <style>
@@ -40,6 +40,7 @@
         margin: 2%;
         width: 10rem;
         text-align: center;
+        border: 1px solid;
     }
     .buttonheader:hover {
         background-color: fuchsia;

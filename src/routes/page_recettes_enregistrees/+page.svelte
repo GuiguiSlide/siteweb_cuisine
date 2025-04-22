@@ -23,13 +23,16 @@
     </section>
 </header>
 
-<h1 class="pt-25">Welcome to</h1>
+<h1 class="pt-25">Welcome to your starred recipes</h1><br />
 <p>
-    tincidunt vel at sapien nisi vel ligula consectetur tortor et 
+    here you can see your starred recipes, and manage them. You can also
+    view your stocks history from here and send to the web some of your recipes*.<br />
+*they need to be validated by the admin before being published.
+
 </p>
 
 <footer class="flex justify-end items-center pt-20 flex-col">
-    <h1>hello</h1>
+    <a href="/"><button class="bg-red-200 rounded-4xl p-5 hover:bg-red-400 w-70">back</button></a>
 </footer>
 
 <style>
@@ -40,6 +43,7 @@
         margin: 2%;
         width: 10rem;
         text-align: center;
+        border: 1px solid;
     }
     .buttonheader:hover {
         background-color: fuchsia;

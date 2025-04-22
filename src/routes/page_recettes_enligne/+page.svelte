@@ -23,13 +23,17 @@
     </section>
 </header>
 
-<h1 class="pt-25">Welcome to</h1>
+<h1 class="pt-25">Welcome to the recipes</h1>
 <p>
-    tincidunt vel at sapien nisi vel ligula consectetur tortor et 
+    here you can find all the recipes that we have in our database, and you can
+    add your own recipes to the database.<br /> you can also compare your stocks with
+    the recipes to see if you have the ingredients to make them.
+    <br />
+    you can order the recipes by name, time, and difficulty and most importantly by if you can make them.
 </p>
 
 <footer class="flex justify-end items-center pt-20 flex-col">
-    <h1>hello</h1>
+    <a href="/"><button class="bg-red-200 rounded-4xl p-5 hover:bg-red-400 w-70">back</button></a>
 </footer>
 
 <style>
@@ -40,6 +44,7 @@
         margin: 2%;
         width: 10rem;
         text-align: center;
+        border: 1px solid;
     }
     .buttonheader:hover {
         background-color: fuchsia;
