@@ -1,4 +1,5 @@
 <script>
+    import { text } from "@sveltejs/kit";
 </script>
 
 <header
@@ -6,7 +7,7 @@
 >
     <section class="flex flex-row items-center justify-start p-5 gap-[10rem]">
         <a href="/page_insertionstock">
-            <button class="buttonheader">your stocks</button></a
+            <button class="buttonheader">your storage</button></a
         >
         <a href="/page_compte">
             <button class="buttonheader">your account</button></a
@@ -18,18 +19,47 @@
             <button class="buttonheader">the recipes</button></a
         >
         <a href="/page_feedback">
-            <button class="buttonheader">feedback</button></a
+            <button class="buttonheader">your feedback</button></a
         >
     </section>
 </header>
 
-<h1 class="pt-25">Welcome to stocks</h1>
-<p>
-    here you can add your stocks, and we will take them into account to compare recipes later.
+<h1 class="pt-25">Welcome to your ingredient storage</h1>
+<p class="pb-10">
+    here you can add your ingredients, and we will take them into account to compare
+    recipes later.
 </p>
-
+<div class="flex flex-row justify-center pt-10">
+    <input
+        type="text"
+        placeholder="add ingredient name"
+        value=""
+        class="border-t-2 border-b-2 border-l-2 border-r-2 rounded-l-2xl"
+    />
+    <input
+        type="number"
+        placeholder="add number"
+        value=""
+        class="border-t-2 border-b-2 border-l-0 border-r-2"
+    />
+    <input
+        type="text"
+        placeholder="add price"
+        value=""
+        class="border-t-2 border-b-2 border-l-0 border-r-0"
+    />
+    <input
+        type="submit"
+        value="add"
+        class="bg-red-200 rounded-r-2xl border-2 w-20 hover:bg-amber-700"
+    />
+</div>
 <footer class="flex justify-end items-center pt-20 flex-col">
-    <a href="/"><button class="bg-red-200 rounded-4xl p-5 hover:bg-red-400 w-70">back</button></a>
+    <a href="/"
+        ><button class="bg-red-200 rounded-4xl p-5 hover:bg-red-400 w-70"
+            >back</button
+        ></a
+    >
 </footer>
 
 <style>

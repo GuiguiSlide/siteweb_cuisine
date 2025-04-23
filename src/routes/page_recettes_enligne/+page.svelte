@@ -6,7 +6,7 @@
 >
     <section class="flex flex-row items-center justify-start p-5 gap-[10rem]">
         <a href="/page_insertionstock">
-            <button class="buttonheader">your stocks</button></a
+            <button class="buttonheader">your storage</button></a
         >
         <a href="/page_compte">
             <button class="buttonheader">your account</button></a
@@ -18,7 +18,7 @@
             <button class="buttonheader">the recipes</button></a
         >
         <a href="/page_feedback">
-            <button class="buttonheader">feedback</button></a
+            <button class="buttonheader">your feedback</button></a
         >
     </section>
 </header>
@@ -31,6 +31,18 @@
     <br />
     you can order the recipes by name, time, and difficulty and most importantly by if you can make them.
 </p>
+<div class="flex flex-row justify-center pt-10">
+<input
+    type="submit"
+    value="add a recipe"
+    class="bg-blue-200 rounded-2xl border-2 p-5 mt-20 mr-20 w-70 hover:bg-green-200"
+/>
+<input
+    type="text"
+    placeholder="find a recipe"
+    class="bg-white rounded-2xl border-2 ml-20 p-5 mt-20 w-70"
+/>
+</div>
 
 <footer class="flex justify-end items-center pt-20 flex-col">
     <a href="/"><button class="bg-red-200 rounded-4xl p-5 hover:bg-red-400 w-70">back</button></a>

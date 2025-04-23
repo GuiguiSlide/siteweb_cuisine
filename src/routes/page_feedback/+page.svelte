@@ -18,19 +18,23 @@
             <button class="buttonheader">the recipes</button></a
         >
         <a href="/page_feedback">
-            <button class="buttonheader">feedback</button></a
+            <button class="buttonheader">your feedback</button></a
         >
     </section>
 </header>
 
 <h1 class="pt-25">the feedbacks</h1>
 <p>
-    here you can send us your feedbacks about the app, and we will take
-    them into account to improve the app.
+    here you can send us your feedbacks about the app, and we will take them
+    into account to improve the app.
 </p>
 
 <footer class="flex justify-end items-center pt-20 flex-col">
-    <a href="/"><button class="bg-red-200 rounded-4xl p-5 w-70 hover:bg-red-400">back</button></a>
+    <a href="/"
+        ><button class="bg-red-200 rounded-4xl p-5 w-70 hover:bg-red-400"
+            >back</button
+        ></a
+    >
 </footer>
 
 <style>
